@@ -71,6 +71,7 @@ class Ssh_connect:
         if len(data)>0:
             return False
         if len(data)==0:
+            print("nothing")
             return True
         
     def restart(self,service_name):
