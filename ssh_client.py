@@ -80,6 +80,7 @@ class Ssh_connect:
         if len(data)>0:
             return False
         if len(data)==0:
+            print("asdflsadf")
             return True
     def mask(self,service_name):
         _, stdout, stderr = self.sshclient.exec_command("sudo systemctl mask {}".format(service_name))
