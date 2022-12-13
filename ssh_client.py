@@ -98,6 +98,6 @@ class Ssh_connect:
         _, stdout, stderr = self.sshclient.exec_command("sudo systemctl status {}".format(service_name))
         data = stdout.read().splitlines()
         return data
-        
+        #a;kldgfhadsfkgjhas
         
         
